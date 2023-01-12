@@ -2,18 +2,21 @@ import { ColorModeContext, useMode } from './theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import { Routes, Route } from 'react-router-dom';
 import {Topbar, Sidebar, Dashboard, Team, Invoices, Contacts, Bar, Form, Line, Pie, FAQ, Geography, Calendar} from './sections/index';
+import { useState } from 'react';
 
 function App() {
   const [theme, colorMode] = useMode();
+  const [isSidebar, setIsSidebar] = useState(true);
+
 
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="App">
-          <Sidebar />
+          <Sidebar isSidebar={isSidebar}/>
           <main className="content">
-            <Topbar />
+            <Topbar setIsSidebar={setIsSidebar}/>
             <Routes>
               <Route path="/" element={<Dashboard />} />
               {/* <Route path="/team" element={<Team />} /> */}
