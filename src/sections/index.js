@@ -2,7 +2,7 @@ export {default as Topbar} from './global/Topbar';
 export {default as Sidebar} from './global/Sidebar';
 export {default as Dashboard} from './dashboard/dashboard';
 export {default as Team} from './team/team';
-// export {default as Invoices} from './invoices/invoices';
+export {default as Invoices} from './invoices/invoices';
 export {default as Contacts} from './contacts/contacts';
 // export {default as Bar} from './bar/bar/';
 // export {default as Form} from './form/form';
