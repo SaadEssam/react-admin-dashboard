@@ -17,7 +17,7 @@ const Team = () => {
     { field: "age", headerName: "Age", type: "number", headerAlign: "left", align: "left"},
     { field: "phone", headerName: "Phone Number", flex: 1},
     { field: "email", headerName: "Email", flex: 1},
-    { field: "access", headerName: "Access Level", flex: 1, renderCell: ({ access }) => {
+    { field: "access", headerName: "Access Level", flex: 1, renderCell: ({ row: {access} }) => {
       return (
         <Box width="60%" m="0 auto" p="5px" display="flex" justifyContent="center" 
           backgroundColor={access === "admin" ? colors.greenAccent[600] : colors.greenAccent[700]}

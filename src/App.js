@@ -13,7 +13,7 @@ function App() {
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <div className="App">
+        <div className="app">
           <Sidebar isSidebar={isSidebar}/>
           <main className="content">
             <Topbar setIsSidebar={setIsSidebar}/>
