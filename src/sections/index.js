@@ -5,7 +5,7 @@ export {default as Team} from './team/team';
 export {default as Invoices} from './invoices/invoices';
 export {default as Contacts} from './contacts/contacts';
 // export {default as Bar} from './bar/bar/';
-// export {default as Form} from './form/form';
+export {default as Form} from './form/form';
 // export {default as Line} from './line/line';
 // export {default as Pie} from './pie/pie';
 // export {default as FAQ} from './faq/faq';
