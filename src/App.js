@@ -26,7 +26,7 @@ function App() {
               {/* <Route path="/bar" element={<Bar />} /> */}
               {/* <Route path="/pie" element={<Pie />} /> */}
               {/* <Route path="/line" element={<Line />} /> */}
-              {/* <Route path="/faq" element={<FAQ />} /> */}
+              <Route path="/faq" element={<FAQ />} />
               {/* <Route path="/geography" element={<Geography />} /> */}
               <Route path="/calendar" element={<Calendar />} />
             </Routes>
