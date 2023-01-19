@@ -9,5 +9,5 @@ export {default as Form} from './form/form';
 export {default as Line} from './line/line';
 export {default as Pie} from './pie/pie';
 export {default as FAQ} from './faq/faq';
-// export {default as Geography} from './geography/geography';
+export {default as Geography} from './geography/geography';
 export {default as Calendar} from './calendar/calendar';
