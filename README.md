@@ -2,10 +2,10 @@
 
 
 ## DARK_THEME
-![](https://github.com/SaadEssam/react-admin-dashboard/blob/main/DarkTheme.png)
+![](https://github.com/SaadEssam/react-admin-dashboard/blob/main/DarkTheme.PNG)
 
 ## DARK_THEME
-![](https://github.com/SaadEssam/react-admin-dashboard/blob/main/LightTheme.png)
+![](https://github.com/SaadEssam/react-admin-dashboard/blob/main/LightTheme.PNG)
 
 # Getting Started with Create React App
 
